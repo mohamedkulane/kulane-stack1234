@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Tailwind introduction</title>
+  </head>
+  <body>
+    <div class="bg-yellow-500 flex justify-between px-12 py-4 d">
+      <h1 class="text-[28px]  font-semibold font-serif -ml-10 sm:ml-0 items-center">Mohamed ahmed</h1>
+      <div class="text-[28px] sm:hidden ">
+      <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul class="sm:flex justify-around gap-18 text-[28px] hidden">
+        <li>Home</li>
+        <li>About</li>
+        <li>Skill</li>
+      </ul>
+    </div>
+    <div class="flex justify-around gap-5 mt-[35px] items-center flex-col sm:flex-row text-center sm:text-left">
+      <div class="w-[500px]">
+        <h1 class="text-[36px] font-bold sm:mb-4 -mb-8">About me</h1>
+        <p class="text-black text-[18px] p-10 sm:p-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+          debitis! Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Culpa, labore. Lorem ipsum, dolor sit
+          amet consectetur adipisicing elit. Non cupiditate nostrum sed, modi
+          consequuntur eligendi inventore tempore, cum aperiam excepturi,
+          necessitatibus earum dignissimos beatae eum? Culpa recusandae minima
+          odit necessitatibus. 
+        </p>
+        <button
+          class="bg-yellow-400 text-[20px] sm:px-10 sm:py-2 px-12 py-3 sm:rounded-[16px] rounded-[8px] sm:mt-[8px] mt-0 border-1 border-black-300 font-semibold">
+          Resume
+        </button>
+      </div>
+      <div>
+        <img
+          class="w-[380px] h-[380px] rounded-[50%] border-yellow-400 border-10"
+          src="/1.jpg"
+          alt=""/>
+      </div>
+    </div>
+    <div class="bg-yellow-500 p-10 mt-5 text-center">
+        <p class="text-[22px] font-semibold font-serif">Mohamed Kulane</p>
+        <p>aniga waaye ninka dhisay bogaan</p>
+        <p class="font-bold">061:613692550</p>
+    </div>
+  </body>
+</html>
