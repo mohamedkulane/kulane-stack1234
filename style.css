@@ -1,0 +1,664 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "montserrat";
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    color: black;
+    /* background-color: white; */
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 24px;
+    line-height: 10px;
+}
+.btns{
+    gap: 20px;
+}
+.login{
+background-color: #204E51;
+color: white;
+padding: 15px 35px;
+font-size: 20px;
+border-style: none;
+border-radius: 8px;
+}
+.sign{
+background-color:transparent;
+color: #204E51;
+padding: 15px 35px;
+font-size: 20px;
+border-style: 3px solid #204E51;
+border-radius: 8px;
+}
+.hero{
+    padding-top: 50px;
+    text-align: center;
+    /* margin-top: 80px; */
+    height: 550px;
+    color: white;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(https://i.pinimg.com/736x/f8/39/cf/f839cfa137c3d77b806335bedb53e651.jpg);
+    background-position: center;
+    background-size: 100% 550px;
+    background-repeat: no-repeat;
+}
+.hero h1{
+    margin-top: 5px;
+    font-size: 70px;
+}
+.hero button{
+    gap: 18px;
+
+}
+.hero .get{
+    background-color: #204E51;
+    color: white;
+    border-style: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 19px;
+    font-weight: 600px;
+}
+.Learn{
+    color: white;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 19px;
+    background:transparent;
+    border: 3px solid white;
+    font-weight: 600px;
+}
+.hero p{
+    padding: 40px;
+}
+.hello{
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-around;
+}
+.qoraal{
+    width: 600px;
+}
+.hel img{
+    width: 570px;
+    height: 570px;
+    border-radius: 22px;
+}
+.hel h1{
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 55px;
+    left: 160px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #204E51;
+}
+.hel{
+    position: relative;
+}
+.qoraal h1{
+    font-size: 70px;
+    color: #204E51;
+}
+.qoraal p{
+    margin: 20px 0px;
+    font-size: 16px;
+} 
+.services{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service h1{
+    font-size: 80px;
+    color: #204E51;
+}
+.service p{
+    font-size: 18px;
+}
+.soogalin{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 18px;
+    padding: 20px 100px;
+}
+.i {
+    border-radius: 12px;
+    padding:30px 30px;
+    background:#FFFFFF ;
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+.i:hover{
+    /* background:orange; */
+    transform: scale(1.1);
+}
+.i i{
+    font-size: 50px;
+}
+.i h3{
+    padding: 20px;
+    font-size: 18px;
+    color:black;
+    font-weight: 600px;
+}
+.product{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.product h1{
+    font-size: 50px;
+    color: #204E51;
+}
+.product p{
+    font-size: 18px;
+}
+.pro-type{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+.pro-type img{
+    width: 220px;
+    border-radius: 15px;
+    align-items: center;
+}
+.image h1{
+    color: #204E51;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.image{
+    margin-top: 20px;
+    padding: 20px 50px;
+    border-radius: 12px;
+    padding:30px 30px;
+    background:#FFFFFF ;
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    width: 200px;
+    height: auto;   
+}
+.link h4{
+    color: #204E51;
+    font-size: 25px;
+    margin-top: 70px;
+    text-align: center;
+   text-decoration: underline;
+}
+#back2{
+    padding-left: 19px;
+    margin-top: 50px;
+    padding-top: 80px;
+    text-align: left;
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(image/sec.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+#back2 h1{
+    font-size: 70px;
+    padding-top: 20px 100px;
+    padding-bottom: 12px;
+}
+.Learns{
+    color: white;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 19px;
+    background:transparent;
+    border: 3px solid white;
+    font-weight: 600px;
+}
+.benifit-left{
+    width: 680px;
+    text-align: left;
+}
+.benifit-left h1{
+    font-size: 75px;
+    color: #204E51;
+}
+.benifit-left button{
+    margin-top: 12px;
+}
+.benifit-right{
+    width: 500px;
+    height: 500px;
+    background-color: #204E51;
+    border-radius: 16px;
+    text-align: left;
+    color: white;
+    align-items: center;
+}
+.icon-parent{
+    display: flex;
+    gap: 35px;
+    margin-left:50px;
+    margin-top: 50px;
+}
+.icon-parent i{
+    font-size: 50px;
+}
+.benifit-parent{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 100px;
+    gap: 20px;
+}
+.testimonials{
+    text-align: center;
+    padding: 20px;
+    margin-top: 24px;
+}
+.testimonials h1{
+color: #204E51;
+font-size: 62px;
+}
+ .t-center{
+    width: 100%;
+    height: 350px;
+    background-color: #204E51;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 10px;
+         border-radius: 22px;
+}
+.t-center img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding-left: 12px;
+}
+#tes{
+    text-align: left;
+    padding-left:15px ;
+    color: white;
+}
+#tes i {
+    background-color: #204E51;
+    color: yellow;
+    box-shadow: none;
+}
+#tes h1{
+    font-size: 24px;
+    margin-bottom: 8px;
+
+}
+#tes p{
+    font-size: 16px;
+    padding: 8px;
+} 
+.t-left,.t-rigth{
+    width: 100%;
+}
+
+.parent-testimonials{
+    display: grid;
+    grid-template-columns: 100px 800px 100px;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+   
+}
+.parent-testimonials i{
+    background-color:white ;
+    color:#204E51;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 4px grey;
+    padding: 10px 10px;
+    align-self: center;
+    transition: transform 0.4s ease;
+}
+.parent-testimonials i:hover{
+    transform: scale(1.1);
+}
+/* last section edit */
+.power{
+    text-align: center;
+    margin-top: 50px;
+}
+.power p{
+    font-size: 18px;
+}
+.power h1{
+    font-size: 50px;
+    color: #204E51;
+}
+.power-image{
+    display: flex;
+    justify-content:center;
+   padding: 40px 100px;
+    gap: 20px;
+   
+}
+.t img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.t{
+
+    padding: 15px 30px;
+    text-align: left;
+    border-style: none;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+.t h1{
+    font-size: 20px;
+    color: #204E51;
+}
+.t a{
+    color: #204E51;
+    font-size: 16px;
+}
+/* footer edit */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #204E51;
+    color: white;
+    padding: 100px 100px;
+    margin-top: 22px;
+    margin-bottom: -50px;
+}
+.communications{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+}
+.A{
+   display: flex;
+   gap: 14px;
+   align-items: center;
+   margin-top: 10px;
+   font-size: 30px;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+.pages p{
+    font-size: 12px;
+    text-align: center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+.about p{
+    font-size: 16px;
+    text-align: left;
+}
+@media screen and (max-width:600px) {
+    .header ul{
+        display: none;
+    }
+    .header button{
+        display: none;
+    }
+    .header{
+        padding: 20px;
+    }
+    .header h1{
+        font-size: 30px;
+    }
+    .header i{
+        font-size: 20px;
+        margin-left: 80px;
+
+    }
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 20px;
+    }
+    #bb{
+        flex-direction: column;
+        display: flex;
+      width: 300px;
+      align-items: center;
+    }
+    #bb, .Learn{
+        margin-top: 10px;
+        padding: 10px;
+        
+    }
+    #plus{
+        padding: 10px;
+    }
+    .hero p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: -10px;
+    }
+    /* .hero, .Learn{
+        margin-top: 10px;
+    } */
+    
+    .hero h1{
+        font-size: 28px;
+    }
+    .hello{
+        flex-direction: column;
+        padding: 8px;
+    }
+    .hello h1{
+        font-size: 22px;
+        width: 330px;
+    }
+    .hello p{
+        margin-top: 10px;
+    }
+    .hello img{
+        width: 100%;
+        height: 250px;
+        margin-top: 10px;
+        border-radius: 0px;
+ 
+    }
+    .hel h1{
+        position: relative;
+        bottom: 40px;
+        left: 100px;
+        padding: 15px;
+        width: 150px;
+    }
+    .services{
+      padding-left: 5px;
+      margin-top: -20px;
+     
+
+    }
+    .services p{
+        text-align: left;
+        padding-left: 4px;
+        margin-top: 4px;
+    }
+    .services h1{
+        font-size: 42px;
+         text-align: center;
+    }
+    .soogalin{
+        flex-direction: column;
+        align-items: center;
+    }
+    .i{
+        width: 100%;
+        height: auto;
+    }
+    .i i{
+        color: #204E51;
+        width: 100%;
+        height: auto;
+    }
+    .i:hover{
+        transform: none;
+    }
+    .product{
+        padding: 10px;
+    }
+    .product h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    .product p{
+        text-align: left;
+    }
+    .pro-type{
+        flex-direction: column;
+        align-items: center;
+       }
+    .pro-type img{
+        width: 100%;
+        height: auto;
+        border-radius: 0px;
+    }
+    .image{
+        width: 70%;
+        height: auto;
+    }
+    #back2{
+        flex-direction: column;
+        height: 500px;
+    }
+    #back2 h1{
+        font-size: 26px;
+        text-align: start;
+    }
+    #back2 button{
+        margin-left: 70px;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    #back2, .login{
+        margin-bottom: 10px;
+    }
+     .benifit-parent{
+        flex-direction: column;
+        margin: 0px;
+        padding: 8px;
+     }
+     .benifit-left h1{
+        font-size: 34px;
+        text-align: left;
+        padding-left: 5px;
+        width: 370px;
+     }
+     .benifit-left p{
+        font-size: 18px;
+        width: 340px;
+     }
+     .benifit-right{
+        width: 95%;
+        height: auto;
+        padding: 8px;
+        border-radius: 4px;
+     }
+     .testimonials h1{
+        width: 300px;
+        font-size: 45px;
+        text-align: center;
+     }
+     .parent-testimonials{
+        grid-template-columns: 20px 250px 20px;
+     }
+     .parent-testimonials i{
+        font-size: 10px; 
+     }
+     .t-center{
+        flex-direction: column;
+        padding: 8px;
+     }
+     .t-center img{
+        width: 150px;
+        height: 100px;
+        padding-top: 5px;
+     }
+     .t-center i{
+        font-size: 10px;
+     }
+     .t-center h1{
+        font-size: 18px;
+     }
+     .t-center p{
+        font-size: 16px;
+        margin-top: -10px;
+        padding-bottom: 4px;
+     }
+     .power-image{
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        margin-bottom: 40px;
+        gap: 60px;
+     }
+     .t{
+        padding: 10px 20px;
+     }
+     .t h1{
+        font-size: 22px;
+        text-align: left;
+     }
+     .t img{
+        width: 200px;
+        height: 200px;
+     }
+     .footer{
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 0px;
+     }
+     .communications h1{
+        font-size: 24px;
+     }
+     .communications p{
+        text-align: center;
+        line-height: 20px;
+     }
+    .A{
+        text-align: center;
+        padding-left: 70px;
+    }
+    .pages p{
+        flex-direction: column;
+    }
+}
