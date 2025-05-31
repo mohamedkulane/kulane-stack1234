@@ -1,0 +1,452 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'montserrat';
+}
+body{
+    background-color: rgb(22, 33, 33);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 25, 6);
+    color: white;
+    padding: 20px 40px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom: 2px solid white;
+
+}
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 22px;
+    gap: 24px;
+    font-weight: bolder;
+   
+}
+.header ul a{
+    color: white;
+}
+.header ul a{
+    
+        text-decoration: none;
+        position: relative;
+      }
+      
+     .header ul a::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color:rgb(27,236,27);
+        transition: width 0.3s ease;
+      }
+      
+     .header ul a:hover::after {
+        width: 100%;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 50px;
+    align-items: center;
+     color: white;
+}
+.sec1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 3px solid rgb(27, 236, 27);
+   
+}
+.qoraal{
+    width: 500px;
+    padding: 20px;
+}
+.qoraal h1{
+    font-size: 56px;
+    color: white;
+}
+.qoraal h2{
+    font-size: 20px;
+}
+.qoraal p{
+    font-size: 20px;
+    font-weight: 400px;
+}
+.qoraal button{
+    background-color:rgb(27, 236, 27) ;
+    padding:17px 30px;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 14px;
+    transition: transform 0.3s ease;
+}
+.qoraal button:hover{
+    transform: scale(1.1);
+    background-color: gray;
+    color: white;
+}
+.qoraal i{
+    background-color:rgb(22, 33, 33) ;
+    border-radius: 50%;
+    padding: 10px;
+    border: 3px solid rgb(27, 236, 27) ;
+    font-size: 20px;
+    color:rgb(90, 249, 90) ;
+    margin-top: 14px;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 8em;
+    
+}
+.sec2 img{
+    width: 300px;
+    height: 370px;
+    border: 3px solid rgb(27, 236, 27) ;
+    border-radius: 12px;
+}
+.qoraalka{
+    width: 600px;
+    padding: 40px;
+    color: white;
+}
+.qoraalka h1{
+    font-size: 46px;
+    margin-top: -30px;
+  
+}
+.spana{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+ 
+}
+.hell{
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(166, 166, 162);
+    border-style: none;
+    font-size: 16px;
+    color: white;
+   transition: transform 0.3s ease;
+}
+.hell:hover{
+    transform: scale(1.1);
+    background-color: rgb(27, 236, 27) ;
+    color: white;
+}
+.qoraalka h3{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.qoraalka p{
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: darkgray;
+}
+.qoraalka .he{
+    color:rgb(27, 236, 27) ;
+    font-size: 46px;
+}
+.qoraalka button{
+    background-color:rgb(27, 236, 27) ;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 22px;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+    transition: transform 0.4s ease;
+}
+.qoraalka button:hover{
+    transform: scale(1.1);
+    background-color: gray;
+    color: white;
+}
+.sec3{
+    margin-top: 8em;
+}
+.sec3 h1{
+    font-size: 46px;
+    text-align: center;
+    color: white;
+    margin-bottom: 14px;
+}
+.sec3 span{
+    color: rgb(27, 236, 27);
+}
+.service{
+    background-color: rgb(6, 25, 6);
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 300px;
+    height: 320px;
+    color: white;
+    border-top-left-radius: 8px ;
+    border-top-right-radius: 8px;
+    border-top: 10px solid rgb(27,236,27);
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom: 4px solid white;
+   transition: transform 0.4s ease;
+    
+}
+.service:hover{
+    transform: scale(1.1);
+}
+.service i{
+    margin-top: 14px;
+    font-size: 28px;
+    color:rgb(27, 236, 27) ;
+}
+.service p{
+    font-size: 16px;
+    color: lightgray;
+}
+.service h1{
+    font-size: 22px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.all1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 18px;
+}
+.service button{
+    background-color:rgb(27, 236, 27) ;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+.sec4{
+    margin-top: 8em;
+}
+.sec4 h1{
+    text-align: center;
+    font-size: 46px;
+    color: white;
+    font-weight: 700px;
+    margin-bottom: 18px;
+}
+.sec4 span{
+    color: rgb(27, 236, 27);
+    font-size: 46px;
+}
+.all4{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: center;
+    gap: 20px;
+}
+.all4 img{
+    width: 100%;
+    border-radius: 10%;
+    border: 2px solid rgb(240, 132, 240);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: 4px solid white;
+}
+.sec5{
+    margin-top: 8em;
+}
+.sec5 h1{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700px;
+    color: white;
+}
+.sec5 span{
+    color: rgb(27, 236, 27);
+    font-size: 46px;
+}
+.all5 img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 5px solid rgb(27, 236, 27);
+    transition: transform 0.3s ease;
+}
+.all5 img:hover{
+    transform: scale(1.2);
+}
+.all5{
+    width: 100%;
+    height: auto;
+}
+.all5{
+    display: grid;
+    grid-template-columns: 50px 800px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 2em;
+}
+
+.hi{
+    background-color: rgb(22, 33, 33);
+    border-radius: 20px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 15px 30px;
+    color: white;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-top: 10px solid rgb(27, 236, 27);
+    height: 300px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom: 10px solid rgb(27, 236, 27);
+    
+}
+.hi p{
+    margin-top: 12px;
+    font-size: 18px;
+}
+.hi hr{
+    width: 50px;
+    border: 2px solid rgb(27, 236, 27);
+    border-radius: 8px;
+}
+.hi span{
+    color: rgb(27, 236, 27);
+    font-size: 24px;
+}
+.all5 i{
+    font-size: 30px;
+    color: rgb(27, 236, 27);
+    transition: transform 0.3s ease;
+}
+.all5 i:hover{
+    transform: scale(1.3);
+}
+.sec6{
+    margin-top: 8em;
+}
+.sec6 h1{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700px;
+    color: white;
+}
+.sec6 span{
+    color: rgb(27, 236, 27);
+    font-size: 46px;
+}
+.form-container {
+  width: 600px;
+  margin: auto;
+  margin-top: 1em;
+ 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+ 
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+ 
+}
+
+input, textarea {
+  background-color: #d3d3d3; 
+
+  border-style: none;
+  padding: 10px;
+  flex: 1;
+  border-radius: 5px;
+  outline-color: rgb(27, 236, 27);
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.btn {
+  background-color: rgb(27, 236, 27);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: lightgray;
+  color:white;
+}
+footer{
+    margin-top: 6em;
+    color: white;
+    padding: 14px 30px;
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 100%, rgba(9, 9, 121, 1) 100%, rgba(69, 182, 204, 1) 49%);
+    display: flex;
+    justify-content: space-around;
+    border-top: 4px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer h1{
+    font-size: 36px;
+    font-weight: 600px;
+    color: rgb(90, 249, 90);
+    text-align: center;
+}
+.social p{
+    font-size: 10px;
+}
+.social i{
+    margin-top: 6px;
+    font-size: 22px;
+    color: rgb(27, 236, 27);
+}
+footer h4{
+    color: rgb(27, 236, 27);
+}
+.linkss{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+   padding: 10px;
+    
+}
+.linkss a{
+    color: white;
+    text-decoration: none;
+}
+
